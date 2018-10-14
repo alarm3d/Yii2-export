@@ -1,0 +1,23 @@
+{
+    "name": "alarm3d/yii2-export",
+    "description": "Excel, Word, PDF",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "alarm3d"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "phpoffice/phpexcel": "1.8.*",
+		"mpdf/mpdf": "v7.1.*",
+		"tinybutstrong/opentbs": "v1.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "alarm3d\\export\\": ""
+        }
+    }
+}
