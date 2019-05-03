@@ -11,7 +11,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "phpoffice/phpexcel": "1.8.*",
+        "phpoffice/phpspreadsheet": "^1.6.0",
 		"mpdf/mpdf": "v7.1.*",
 		"tinybutstrong/opentbs": "v1.9.*"
     },
